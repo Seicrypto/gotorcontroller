@@ -5,6 +5,18 @@ import (
 	"os/exec"
 )
 
+func controlversion() {
+	cmd := exec.Command("bash", "-c", "torcontroller -V")
+
+	output, err := cmd.Output()
+	if err != nil {
+		fmt.Println("Error:", err)
+		return
+	}
+
+	fmt.Println("Output:", string(output))
+}
+
 func torStart() {
 	cmd := exec.Command("bash", "-c", "torcontroller -S")
 
