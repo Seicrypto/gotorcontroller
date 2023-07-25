@@ -8,9 +8,6 @@ import (
 	"os"
 
 	"github.com/Seicrypto/gotorcontroller"
-	// "../" should be:
-	// "github.com/Seicrypto/gotorcontroller"
-	// in your project
 )
 
 func TorGet(funcURL string) string {
@@ -46,11 +43,14 @@ func TorGet(funcURL string) string {
 }
 
 func main() {
-	// Start tor service.
+	fmt.Println("call 'torcontroller --start' bash command in go...")
 	gotorcontroller.StartTor()
+	fmt.Println("Get api to ipify webside:")
 	fmt.Println(TorGet("https://api64.ipify.org?format=json"))
-	//{"ip":"23.137.249.150"}
+	//{"ip":"23.137.249.150"} < A example of response.
+	fmt.Println("call 'torcontroller --switch' bash command in go...")
 	gotorcontroller.SwitchIP()
+	fmt.Println("Get api to ipify webside again:")
 	fmt.Println(TorGet("https://api64.ipify.org?format=json"))
-	//{"ip":"2.58.56.37"}
+	//{"ip":"2.58.56.37"} < A example of response.
 }
