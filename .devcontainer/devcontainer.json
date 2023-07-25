@@ -1,0 +1,14 @@
+{
+    "name": "gotorcontroller",
+    "dockerFile": "Dockerfile",
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "/bin/bash"
+            }
+        },
+        "terminal.integrated.defaultProfile.linux": "bash"
+    },
+    "extensions": [],
+    "forwardPorts": [9050, 9051]
+}
