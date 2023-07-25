@@ -42,6 +42,13 @@ There is an example building a get required and using an ip switch:
 
 You can run it with Github codespaces:
 
+```bash
+# Github codespaces
+cd examples
+go run exampleGetapi.go
+# public workcontainer port for tor.
+```
+
 ![GetAPIWithTor](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3h6ZjkyYjd1dDV2ODl2MnozY2k2ejE2YzFoYTYwbnF2dHplY2loeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EdJIvL6y5eAWdnJq7k/giphy.gif)
 
 You can try my example on github codespaces.
