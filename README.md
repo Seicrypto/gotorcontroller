@@ -40,11 +40,13 @@ There is an example building a get required and using an ip switch:
 
 [GetapiWithTorcontrollerInGo](./examples/exampleGetapi.go)
 
-![GetAPIWithTor]()
+You can run it with Github codespaces:
+
+![GetAPIWithTor](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3h6ZjkyYjd1dDV2ODl2MnozY2k2ejE2YzFoYTYwbnF2dHplY2loeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/EdJIvL6y5eAWdnJq7k/giphy.gif)
 
 You can try my example on github codespaces.
 
-![]()
+![Github Codespace](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjJkY2U3MXp0ZjJuYzh4ejFyb25neHRwNTdweWR3ZzlsOHlmYWhmbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tqMK5aGxsyWvOCP9Z5/giphy.gif)
 
 ## Reference
 
